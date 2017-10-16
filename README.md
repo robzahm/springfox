@@ -2,6 +2,15 @@
 When a controller endpoint is decorated with an annotation that has been deprecated,
 the endpoint itself is marked as being deprecated.
 
+# How to Run
+1. Clone https://github.com/robzahm/springfox
+2. Start application via ```gradle bootRun```
+3. Access http://localhost:8080/swagger-ui.html
+4. Expand Foo Controller, note that one endpoint appears deprecated, and the other does not.
+5. Look in the source ```Controller``` package, and note that the ```deprecated``` endpoint itself has not been deprecated, but does have an annotation that has been deprecated.
+
+# Output
+
 This can be seen in the swagger_ui.png screen capture and swagger.json sample json
 generated from this project (the endpoint with the deprecated annotation contains a
 **"deprecated": true** designation).
