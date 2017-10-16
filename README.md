@@ -6,7 +6,7 @@ This can be seen in the swagger_ui.png screen capture and swagger.json sample js
 generated from this project (the endpoint with the deprecated annotation contains a
 **"deprecated": true** designation).
 
-![Swagger UI Screenshot](https://github.com/robzahm/springfox/swagger_ui.png)
+![Swagger UI Screenshot](swagger_ui.png)
 
 ```json
 {
